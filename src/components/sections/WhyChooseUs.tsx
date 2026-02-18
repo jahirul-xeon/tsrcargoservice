@@ -1,4 +1,4 @@
-Ôªøimport { metrics } from '../../data/siteData'
+import { metrics } from '../../data/siteData'
 import { StatCounter } from '../common/StatCounter'
 
 export function WhyChooseUs() {
@@ -18,24 +18,24 @@ export function WhyChooseUs() {
             </p>
 
             <h2 className="mt-4 font-display text-3xl font-semibold tracking-tight text-ink-900 md:text-4xl">
-              Built for reliability, trusted by global enterprises.
+              Why partners choose TSR Cargo Service.
             </h2>
 
             <p className="mt-5 text-base leading-relaxed text-steel-600">
-              From regulated industries to mission-critical service networks, we deliver unwavering
-              reliability and measurable performance. Our teams are aligned across continents, supported by
-              advanced operational tooling, and governed by strict quality frameworks.
+              We focus on transparent communication, reliable local operations, and customized logistics
+              support. Our team also brings strong understanding of European trade requirements for export
+              handling from Bangladesh.
             </p>
 
-            {/* Premium ‚Äúcredential‚Äù row */}
+            {/* Premium ìcredentialî row */}
             <div className="mt-7 flex items-center gap-4 rounded-3xl bg-white/40 p-4 backdrop-blur-xl ring-1 ring-black/5 shadow-[0_18px_45px_-30px_rgba(0,0,0,0.25)]">
               <div className="relative h-12 w-12 shrink-0">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-electric-500 to-teal-500 blur-md opacity-35" />
                 <div className="relative h-12 w-12 rounded-full bg-gradient-to-br from-electric-500 to-teal-500 shadow-[0_14px_30px_-18px_rgba(0,180,255,0.85)]" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-ink-900">Certified global operations</p>
-                <p className="text-sm text-steel-600">ISO-aligned protocols and audited systems.</p>
+                <p className="text-sm font-semibold text-ink-900">Long-term partnership approach</p>
+                <p className="text-sm text-steel-600">Trial shipments available to demonstrate service quality.</p>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ export function WhyChooseUs() {
                 {metrics.map((metric) => (
                   <div
                     key={metric.label}
-                    className="rounded-2xl bg-white/40 p-4 backdrop-blur-md ring-1 ring-white/40 shadow-[inset_0_1px_0_rgba(255,255,255,0.65)] transition-transform duration-300 hover:-translate-y-0.5"
+                    className="rounded-2xl bg-white/40 p-4 backdrop-blur-md ring-1 ring-white/40 shadow-[inset_0_1px_0_rgba(255,255,255,0.65)] transition-transform duration-500 hover:-translate-y-0.5"
                   >
                     <StatCounter {...metric} />
                   </div>
@@ -60,7 +60,7 @@ export function WhyChooseUs() {
               {/* tiny footer accent */}
               <div className="mt-5 flex items-center justify-between">
                 <p className="text-xs uppercase tracking-[0.25em] text-steel-500">
-                  Operational Excellence
+                  Trusted Origin Partner
                 </p>
                 <div className="h-[2px] w-12 rounded-full bg-gradient-to-r from-electric-500/70 to-teal-500/70 opacity-70" />
               </div>

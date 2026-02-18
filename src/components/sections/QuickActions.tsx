@@ -1,4 +1,4 @@
-﻿import { quickActions } from '../../data/siteData'
+import { quickActions } from '../../data/siteData'
 
 export function QuickActions() {
   return (
@@ -8,10 +8,10 @@ export function QuickActions() {
           {quickActions.map((item) => (
             <div
               key={item.title}
-              className="group relative rounded-2xl bg-white p-5 transition-all duration-300 hover:-translate-y-1"
+              className="group relative rounded-2xl bg-white p-5 transition-all duration-500 hover:-translate-y-0.5"
             >
               {/* ambient glow */}
-              <div className="pointer-events-none absolute inset-0 -z-10 rounded-2xl opacity-0 blur-xl transition-opacity duration-300 group-hover:opacity-100">
+              <div className="pointer-events-none absolute inset-0 -z-10 rounded-2xl opacity-0 blur-xl transition-opacity duration-500 group-hover:opacity-100">
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-electric-500/40 to-teal-500/40" />
               </div>
 
@@ -20,7 +20,7 @@ export function QuickActions() {
 
               <div className="relative flex gap-4">
                 {/* Icon */}
-                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-electric-500 to-teal-500 shadow-[0_10px_25px_-10px_rgba(0,180,255,0.9)] transition-transform duration-300 group-hover:scale-110">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-electric-500 to-teal-500 shadow-[0_10px_25px_-10px_rgba(0,180,255,0.9)] transition-transform duration-500 group-hover:scale-105">
                   <div className="h-4 w-4 rounded-sm bg-white/90" />
                 </div>
 

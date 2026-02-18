@@ -1,4 +1,4 @@
-﻿import { highlightCards } from '../../data/siteData'
+import { highlightCards } from '../../data/siteData'
 
 export function Highlights() {
   return (

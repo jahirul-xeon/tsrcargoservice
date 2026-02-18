@@ -1,80 +1,76 @@
-﻿export const quickActions = [
+export const quickActions = [
   {
-    title: 'Request Service',
-    description: 'Rapid onboarding for complex operations.',
+    title: 'Book Trial Shipment',
+    description: 'Start with a trial export shipment and evaluate our service quality.',
   },
   {
-    title: 'Track Progress',
-    description: 'Live visibility across your service chain.',
+    title: 'Share Export Plan',
+    description: 'Send your shipment plan for routing, timing, and documentation support.',
   },
   {
-    title: 'Customer Support',
-    description: '24/7 enterprise support desk.',
+    title: 'Talk to Our Team',
+    description: 'Connect directly with our Bangladesh origin handling specialists.',
   },
 ]
 
 export const services = [
   {
-    title: 'Integrated Logistics',
-    description: 'End-to-end coordination with compliance built in.',
+    title: 'Air & Sea Freight Solutions',
+    description: 'Flexible freight forwarding options for export shipments.',
   },
   {
-    title: 'Secure Handling',
-    description: 'Strict chain-of-custody and monitored transfers.',
+    title: 'Textile & Garment Logistics',
+    description: 'Specialized handling for garments and textiles from Bangladesh.',
   },
   {
-    title: 'Specialized Transport',
-    description: 'Temperature-controlled and high-value cargo services.',
+    title: 'Factory Pickup & Coordination',
+    description: 'Reliable pickup and shipment coordination from production sites.',
   },
   {
-    title: 'Operations Consulting',
-    description: 'Process optimization and risk management.',
+    title: 'Inland Transportation',
+    description: 'Smooth inland movement from factory to port and airport terminals.',
   },
   {
-    title: 'Global Coverage',
-    description: 'Strategic hubs and trusted local partners.',
-  },
-  {
-    title: 'Regulatory Assurance',
-    description: 'Audit-ready documentation and governance.',
+    title: 'Export Customs Clearance & Documentation',
+    description: 'Accurate export paperwork and customs processing support.',
   },
 ]
 
 export const metrics = [
-  { label: 'Years of Experience', value: 28, suffix: '+' },
-  { label: 'Enterprise Clients', value: 340, suffix: '+' },
-  { label: 'Countries Covered', value: 62, suffix: '' },
-  { label: 'Projects Delivered', value: 1280, suffix: '+' },
+  { label: 'Core Service Lines', value: 5, suffix: '' },
+  { label: 'Primary Export Regions', value: 2, suffix: '' },
+  { label: 'Origin Country Focus', value: 1, suffix: '' },
+  { label: 'Main Cargo Categories', value: 3, suffix: '' },
 ]
 
 export const operations = [
   {
-    title: 'Command Center Operations',
-    caption: 'Live coordination with real-time decisioning.',
+    title: 'Factory Pickup & Coordination',
+    caption: 'On-ground coordination from production sites to dispatch points.',
     image:
       'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80',
   },
   {
-    title: 'Secure Handling Teams',
-    caption: 'Certified specialists for sensitive shipments.',
+    title: 'Inland Transportation Planning',
+    caption: 'Reliable inland transfer scheduling for timely export movement.',
     image:
       'https://images.unsplash.com/photo-1521790797524-b2497295b8a0?auto=format&fit=crop&w=900&q=80',
   },
   {
-    title: 'Advanced Facilities',
-    caption: 'Controlled environments and monitored access.',
+    title: 'Export Documentation Control',
+    caption: 'Accurate documentation and customs preparation for each shipment.',
     image:
       'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80',
   },
   {
-    title: 'Precision Logistics',
-    caption: 'Every movement tracked and verified.',
+    title: 'Air & Sea Freight Execution',
+    caption: 'Efficient handover to international air and sea carriers.',
     image:
       'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80',
   },
   {
-    title: 'Field Service Teams',
-    caption: 'Experienced crews across key corridors.',
+    title: 'Origin Handling in Bangladesh',
+    caption: 'Local team support for smooth and transparent shipment execution.',
     image:
       'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=900&q=80',
   },
@@ -90,47 +86,47 @@ export const navLinks = [
 
 export const highlightCards = [
   {
-    title: 'Dedicated Enterprise Teams',
-    caption: 'Senior specialists embedded in your workflows.',
+    title: 'Textile & Garment Expertise',
+    caption: 'Deep understanding of Bangladesh production hubs and export flow.',
     image:
       'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80',
   },
   {
-    title: 'Precision Planning',
-    caption: 'Data-driven routing and service orchestration.',
+    title: 'Transparent Communication',
+    caption: 'Clear updates and reliable coordination through each shipment stage.',
     image:
       'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80',
   },
   {
-    title: 'Secure Global Facilities',
-    caption: 'Controlled access, monitored operations.',
+    title: 'European Trade Readiness',
+    caption: 'Strong understanding of European trade and origin handling needs.',
     image:
       'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80',
   },
 ]
 
 export const aboutHighlights = [
-  { title: 'Enterprise Governance', value: '98% compliance audit pass rate' },
-  { title: 'Dedicated Service Teams', value: '2,400+ trained specialists' },
-  { title: 'Global Network', value: '40 regional hubs' },
+  { title: 'Company Base', value: 'Bangladesh-based freight forwarding company' },
+  { title: 'Primary Focus', value: 'Origin handling for export shipments' },
+  { title: 'Main Markets', value: 'Europe and North America' },
 ]
 
 export const missionVision = [
   {
     title: 'Mission',
     description:
-      'Deliver customer-centric service operations with uncompromising reliability, precision, and accountability.',
+      'Provide sustainable, transparent, and reliable freight forwarding support for global export partners.',
   },
   {
     title: 'Vision',
     description:
-      'Set the global benchmark for enterprise service excellence through innovation, data-driven insights, and sustainable growth.',
+      'Be the trusted origin handling partner in Bangladesh for textile, garment, and general cargo exports.',
   },
 ]
 
 export const heroStats = [
-  { label: 'Response Time', value: '12 min' },
-  { label: 'Service Nodes', value: '180+' },
-  { label: 'On-time Rate', value: '99.1%' },
-  { label: 'Live Cases', value: '24' },
+  { label: 'Origin Base', value: 'Bangladesh' },
+  { label: 'Primary Markets', value: 'Europe + N. America' },
+  { label: 'Freight Modes', value: 'Air + Sea' },
+  { label: 'Main Cargo', value: 'Textile + Garments' },
 ]

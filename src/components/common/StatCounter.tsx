@@ -1,4 +1,4 @@
-ï»¿import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 
 interface StatCounterProps {
   value: number
@@ -34,7 +34,7 @@ export function StatCounter({ value, suffix = '', label }: StatCounterProps) {
       const eased = easeOutCubic(t)
       const next = Math.round(eased * value)
 
-      // throttle state updates (prevents â€œhangâ€)
+      // throttle state updates (prevents “hang”)
       if (next !== lastPainted) {
         lastPainted = next
         setCount(next)
@@ -79,7 +79,7 @@ export function StatCounter({ value, suffix = '', label }: StatCounterProps) {
       "
     >
       {/* hover glow halo */}
-      <div className="pointer-events-none absolute -inset-10 opacity-0 blur-3xl transition-opacity duration-300 group-hover:opacity-100">
+      <div className="pointer-events-none absolute -inset-10 opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100">
         <div className="absolute inset-0 bg-gradient-to-r from-electric-400/22 via-teal-400/18 to-sky-400/22" />
       </div>
 
@@ -90,13 +90,13 @@ export function StatCounter({ value, suffix = '', label }: StatCounterProps) {
           bg-white/35 backdrop-blur-xl
           ring-1 ring-white/45
           shadow-[inset_0_1px_0_rgba(255,255,255,0.65)]
-          transition-transform duration-300
+          transition-transform duration-500
           group-hover:-translate-y-0.5
           will-change-transform
         "
       >
         {/* top highlight sweep */}
-        <div className="pointer-events-none absolute -top-24 left-1/2 h-40 w-[120%] -translate-x-1/2 rotate-6 bg-white/35 blur-2xl opacity-50 transition-opacity duration-300 group-hover:opacity-70" />
+        <div className="pointer-events-none absolute -top-24 left-1/2 h-40 w-[120%] -translate-x-1/2 rotate-6 bg-white/35 blur-2xl opacity-50 transition-opacity duration-500 group-hover:opacity-70" />
 
         <div className="relative flex items-end justify-between gap-4">
           <div className="leading-none">

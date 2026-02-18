@@ -1,4 +1,4 @@
-﻿import { missionVision } from '../../data/siteData'
+import { missionVision } from '../../data/siteData'
 
 export function MissionVision() {
   return (
@@ -20,13 +20,13 @@ export function MissionVision() {
               bg-gradient-to-br from-teal-50/80 via-sky-50/70 to-indigo-50/80
               p-[1px]
               shadow-[0_35px_90px_-65px_rgba(15,60,100,0.45)]
-              transition-transform duration-300 ease-out
-              hover:-translate-y-1
+              transition-transform duration-500 ease-out
+              hover:-translate-y-0.5
               will-change-transform
             "
           >
             {/* halo glow */}
-            <div className="pointer-events-none absolute -inset-10 opacity-0 blur-3xl transition-opacity duration-300 group-hover:opacity-100">
+            <div className="pointer-events-none absolute -inset-10 opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100">
               <div className="absolute inset-0 bg-gradient-to-r from-electric-400/24 via-teal-400/20 to-sky-400/24" />
             </div>
 
@@ -39,7 +39,7 @@ export function MissionVision() {
               "
             >
               {/* soft highlight sweep */}
-              <div className="pointer-events-none absolute -top-24 left-1/2 h-40 w-[120%] -translate-x-1/2 rotate-6 bg-white/35 blur-2xl opacity-50 transition-opacity duration-300 group-hover:opacity-70" />
+              <div className="pointer-events-none absolute -top-24 left-1/2 h-40 w-[120%] -translate-x-1/2 rotate-6 bg-white/35 blur-2xl opacity-50 transition-opacity duration-500 group-hover:opacity-70" />
 
               {/* header */}
               <div className="relative flex items-center gap-4">
@@ -71,7 +71,7 @@ export function MissionVision() {
               </p>
 
               {/* bottom accent */}
-              <div className="relative mt-6 h-[2px] w-12 rounded-full bg-gradient-to-r from-electric-500/70 to-teal-500/70 opacity-70 transition-all duration-300 group-hover:w-16" />
+              <div className="relative mt-6 h-[2px] w-12 rounded-full bg-gradient-to-r from-electric-500/70 to-teal-500/70 opacity-70 transition-all duration-500 group-hover:w-16" />
             </div>
           </article>
         ))}

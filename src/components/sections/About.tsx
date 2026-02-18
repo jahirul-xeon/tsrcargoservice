@@ -4,7 +4,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="relative overflow-hidden bg-ink-950 text-white"
+      className="relative overflow-hidden bg-ink-950 text-black"
     >
       {/* ambient background glow */}
       <div className="pointer-events-none absolute inset-0 -z-10">
@@ -20,18 +20,17 @@ export function About() {
           </p>
 
           <h2 className="mt-4 font-display text-3xl font-semibold text-black tracking-tight md:text-4xl">
-            Decades of operational rigor, built for modern enterprise needs.
+            Reliable origin handling support from Bangladesh to global markets.
           </h2>
 
-          <p className="mt-6 text-base leading-relaxed text-black">
-            Aurelia Global Services partners with enterprise brands to deliver refined
-            operational workflows. Our teams are trained to align with your compliance
-            requirements while delivering seamless, customer-centric service experiences.
+          <p className="mt-6 text-base leading-relaxed text-steel-200">
+            TSR Cargo Service manages export shipments with hands-on local coordination,
+            accurate documentation, and consistent communication across each stage.
           </p>
 
-          <p className="mt-4 text-base leading-relaxed text-black">
-            We specialize in complex service environments where precision, speed,
-            and trust define the outcome.
+          <p className="mt-4 text-base leading-relaxed text-steel-200">
+            With deep knowledge of Bangladesh's textile production hubs, we support
+            garment, textile, and general cargo exports from factory to port.
           </p>
         </div>
 
@@ -49,7 +48,7 @@ export function About() {
               "
             >
               {/* glow halo */}
-              <div className="pointer-events-none absolute -inset-10 opacity-0 blur-3xl transition-opacity duration-300 group-hover:opacity-100">
+              <div className="pointer-events-none absolute -inset-10 opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100">
                 <div className="absolute inset-0 bg-gradient-to-r from-electric-400/25 via-teal-400/20 to-cyan-400/25" />
               </div>
 
@@ -59,7 +58,7 @@ export function About() {
                   relative rounded-[23px] p-6
                   bg-white/10 backdrop-blur-xl
                   shadow-[inset_0_1px_0_rgba(255,255,255,0.15)]
-                  transition-transform duration-300
+                  transition-transform duration-500
                   group-hover:-translate-y-0.5
                   will-change-transform
                 "
@@ -73,7 +72,7 @@ export function About() {
                 </p>
 
                 {/* subtle accent line */}
-                <div className="mt-4 h-[2px] w-10 rounded-full bg-gradient-to-r from-electric-400/70 to-teal-400/70 opacity-70 transition-all duration-300 group-hover:w-14" />
+                <div className="mt-4 h-[2px] w-10 rounded-full bg-gradient-to-r from-electric-400/70 to-teal-400/70 opacity-70 transition-all duration-500 group-hover:w-14" />
               </div>
             </div>
           ))}

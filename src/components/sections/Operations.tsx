@@ -1,4 +1,4 @@
-﻿import { operations } from '../../data/siteData'
+import { operations } from '../../data/siteData'
 
 export function Operations() {
   return (
@@ -12,7 +12,7 @@ export function Operations() {
       <div className="reveal" data-reveal>
         <p className="text-xs uppercase tracking-[0.35em] text-electric-600">Operations</p>
         <h2 className="mt-4 font-display text-3xl font-semibold tracking-tight text-ink-900 md:text-4xl">
-          Operational excellence across every touchpoint.
+          How we execute origin handling in Bangladesh.
         </h2>
       </div>
 
@@ -28,13 +28,13 @@ export function Operations() {
                 bg-gradient-to-br from-teal-50/70 via-sky-50/60 to-indigo-50/70
                 p-[1px]
                 shadow-[0_30px_80px_-55px_rgba(15,60,100,0.45)]
-                transition-transform duration-300 ease-out
-                hover:-translate-y-1
+                transition-transform duration-500 ease-out
+                hover:-translate-y-0.5
                 will-change-transform
               "
             >
               {/* glow halo */}
-              <div className="pointer-events-none absolute -inset-10 opacity-0 blur-3xl transition-opacity duration-300 group-hover:opacity-100">
+              <div className="pointer-events-none absolute -inset-10 opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100">
                 <div className="absolute inset-0 bg-gradient-to-r from-electric-400/22 via-teal-400/18 to-sky-400/22" />
               </div>
 
@@ -42,7 +42,7 @@ export function Operations() {
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="h-56 w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.06]"
+                  className="h-56 w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                 />
 
                 {/* cinematic overlays */}
@@ -56,7 +56,7 @@ export function Operations() {
                     <p className="mt-1 text-sm text-white/70">{item.caption}</p>
 
                     {/* tiny accent */}
-                    <div className="mt-3 h-[2px] w-10 rounded-full bg-gradient-to-r from-electric-400/70 to-teal-400/70 opacity-80 transition-all duration-300 group-hover:w-14" />
+                    <div className="mt-3 h-[2px] w-10 rounded-full bg-gradient-to-r from-electric-400/70 to-teal-400/70 opacity-80 transition-all duration-500 group-hover:w-14" />
                   </div>
                 </div>
               </div>
@@ -72,13 +72,13 @@ export function Operations() {
               bg-gradient-to-br from-teal-50/70 via-sky-50/60 to-indigo-50/70
               p-[1px]
               shadow-[0_40px_100px_-70px_rgba(15,60,100,0.55)]
-              transition-transform duration-300 ease-out
-              hover:-translate-y-1
+              transition-transform duration-500 ease-out
+              hover:-translate-y-0.5
               will-change-transform
             "
           >
             {/* glow halo */}
-            <div className="pointer-events-none absolute -inset-10 opacity-0 blur-3xl transition-opacity duration-300 group-hover:opacity-100">
+            <div className="pointer-events-none absolute -inset-10 opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100">
               <div className="absolute inset-0 bg-gradient-to-r from-electric-400/22 via-teal-400/18 to-sky-400/22" />
             </div>
 
@@ -86,7 +86,7 @@ export function Operations() {
               <img
                 src={operations[4].image}
                 alt={operations[4].title}
-                className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.06]"
+                className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
               />
 
               {/* cinematic overlay for tall card */}

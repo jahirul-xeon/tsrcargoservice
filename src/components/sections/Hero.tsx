@@ -1,4 +1,4 @@
-﻿import { useEffect, useMemo, useRef } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 import { heroStats } from '../../data/siteData'
 
 export function Hero() {
@@ -37,22 +37,22 @@ export function Hero() {
       <div className="relative z-10 mx-auto flex max-w-6xl flex-col gap-10 px-6 pb-20 pt-16 md:flex-row md:items-center md:px-12 md:pb-28 md:pt-20">
         <div className="flex-1">
           <p className="animate-fade-in text-xs uppercase tracking-[0.4em] text-teal-400">
-            Enterprise Service Operations
+            Bangladesh Origin Handling
           </p>
           <h1 className="mt-5 animate-fade-up font-display text-4xl font-semibold leading-tight md:text-5xl lg:text-6xl">
-            Trusted global operations with precision, security, and scale.
+            Sustainable solutions for global freight.
           </h1>
           <p className="mt-6 max-w-xl text-base text-steel-300 md:text-lg">
-            Aurelia Global Services delivers premium operational support for high-value service networks.
-            We combine meticulous governance, advanced facilities, and experienced teams to keep your
-            mission-critical operations moving with absolute confidence.
+            TSR Cargo Service is a Bangladesh-based freight forwarding company specializing in origin
+            handling for export shipments. We support European and global partners with transparent and
+            reliable logistics solutions.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <button className="btn-sheen rounded-full bg-electric-500 px-6 py-3 text-sm font-semibold uppercase tracking-[0.22em] text-white transition hover:-translate-y-0.5 hover:bg-electric-400 hover:shadow-glow">
-              Contact Us
+              Let's Work Together
             </button>
             <button className="btn-sheen rounded-full border border-white/30 px-6 py-3 text-sm font-semibold uppercase tracking-[0.22em] text-white/90 transition hover:-translate-y-0.5 hover:border-white hover:text-white">
-              Explore Services
+              View Services
             </button>
           </div>
         </div>
@@ -66,7 +66,7 @@ export function Hero() {
       shadow-[0_20px_50px_-30px_rgba(0,0,0,0.6)]
       ring-1 ring-white/12
       will-change-transform
-      transition-transform duration-300 ease-out
+      transition-transform duration-500 ease-out
       hover:-translate-y-0.5
       motion-reduce:transform-none
     "
@@ -81,10 +81,10 @@ export function Hero() {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-xs uppercase tracking-[0.3em] text-teal-300/90">
-                    Live Operations
+                    Live Export Focus
                   </p>
                   <h3 className="mt-2 font-display text-2xl font-semibold text-white">
-                    Global Control Room
+                    TSR Cargo Service
                   </h3>
                 </div>
 
@@ -100,7 +100,7 @@ export function Hero() {
                     className="
               rounded-2xl bg-white/5 p-4
               ring-1 ring-white/10
-              transition-transform duration-300 ease-out
+              transition-transform duration-500 ease-out
               hover:-translate-y-0.5
               will-change-transform
               motion-reduce:transform-none
