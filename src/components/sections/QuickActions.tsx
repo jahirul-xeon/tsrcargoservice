@@ -6,8 +6,11 @@ export function QuickActions() {
       <div className="mx-auto max-w-6xl rounded-[2rem] bg-white/80 p-6 backdrop-blur-md shadow-[0_30px_60px_-30px_rgba(0,0,0,0.15)] md:p-8">
         <div className="grid gap-5 md:grid-cols-3">
           {quickActions.map((item) => (
-            <div
+            <a
               key={item.title}
+              href={item.href}
+              target={item.href.startsWith('http') ? '_blank' : undefined}
+              rel={item.href.startsWith('http') ? 'noreferrer' : undefined}
               className="group relative rounded-2xl bg-white p-5 transition-all duration-500 hover:-translate-y-0.5"
             >
               {/* ambient glow */}
@@ -34,7 +37,7 @@ export function QuickActions() {
                   </p>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

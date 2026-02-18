@@ -3,6 +3,8 @@ import { navLinks } from '../../data/siteData'
 
 export function StickyHeader() {
   const [isScrolled, setIsScrolled] = useState(false)
+  const whatsappLink =
+    'https://wa.me/49015753244139?text=Hello%20TSR%20Cargo%20Service%2C%20I%20want%20to%20discuss%20my%20shipment.'
 
   useEffect(() => {
     const onScroll = () => setIsScrolled(window.scrollY > 20)
@@ -20,22 +22,23 @@ export function StickyHeader() {
           : 'bg-ink-950/60',
       ].join(' ')}
     >
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 md:px-12">
+      <nav className="mx-auto flex max-w-6xl items-center gap-3 px-6 py-3 md:px-12 md:py-4">
         {/* Logo */}
-        <div className="flex items-center gap-3">
-          <div className="relative h-12 w-12">
+        <div className="flex shrink-0 items-center gap-1 mr-5 justify-center">
+          <div className="relative h-12 w-24 md:h-12 md:w-28">
             {/* glow */}
             <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-electric-500 to-teal-500 blur-md opacity-40" />
 
             {/* logo image */}
+            
             <img
-              src="https://i.ibb.co.com/m5RpgvZq/db3.png"
+              src="https://i.ibb.co.com/qLh6bFcw/image-logo-tsr-small.png"
               alt="TSR Cargo Service"
-              className="relative h-12 w-12 rounded-xl object-contain bg-ink-950 p-1"
+              className="relative h-full w-full rounded-xl bg-ink-950 object-contain"
             />
           </div>
 
-          <span className="font-display text-lg font-semibold tracking-wide text-black">
+          <span className="font-display text-lg font-semibold tracking-wide text-[#0f4681]">
             TSR Cargo Service
           </span>
         </div>
@@ -43,7 +46,7 @@ export function StickyHeader() {
         {/* Nav links */}
         <div
           className={[
-            'hidden items-center gap-6 text-sm transition-colors md:flex',
+            'hidden items-center gap-5 text-sm transition-colors md:ml-2 md:flex',
             isScrolled ? 'text-black/90' : 'text-black/80',
           ].join(' ')}
         >
@@ -59,8 +62,9 @@ export function StickyHeader() {
         </div>
 
         {/* Actions */}
-        <div className="hidden items-center gap-3 md:flex">
+        <div className="ml-auto hidden shrink-0 items-center gap-3 md:flex">
           <button
+            onClick={() => window.open(whatsappLink, '_blank', 'noopener,noreferrer')}
             className="
               btn-sheen rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em]
               text-teal-800 ring-1 ring-teal-400/25
@@ -70,7 +74,8 @@ export function StickyHeader() {
             WhatsApp
           </button>
 
-          <button
+          <a
+            href="#contact"
             className="
               btn-sheen rounded-full px-5 py-2 text-xs font-semibold uppercase tracking-[0.25em]
               bg-white text-ink-900
@@ -79,7 +84,7 @@ export function StickyHeader() {
             "
           >
             Contact TSR
-          </button>
+          </a>
         </div>
       </nav>
     </header>

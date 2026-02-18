@@ -2,14 +2,17 @@ export const quickActions = [
   {
     title: 'Book Trial Shipment',
     description: 'Start with a trial export shipment and evaluate our service quality.',
+    href: '#contact',
   },
   {
     title: 'Share Export Plan',
     description: 'Send your shipment plan for routing, timing, and documentation support.',
+    href: 'mailto:tarek@tsrcargoservice.com?subject=Export%20Plan%20Inquiry',
   },
   {
-    title: 'Talk to Our Team',
-    description: 'Connect directly with our Bangladesh origin handling specialists.',
+    title: 'WhatsApp Our Team',
+    description: 'Message our Bangladesh origin handling specialists on WhatsApp.',
+    href: 'https://wa.me/49015753244139?text=Hello%20TSR%20Cargo%20Service%2C%20I%20want%20to%20discuss%20my%20shipment.',
   },
 ]
 
