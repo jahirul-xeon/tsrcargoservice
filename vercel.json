@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "tsrcargoservice.com"
+        }
+      ],
+      "destination": "https://www.tsrcargoservice.com/:path*",
+      "permanent": true
+    }
+  ]
+}
