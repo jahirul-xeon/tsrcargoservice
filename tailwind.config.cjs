@@ -1,46 +1,31 @@
-﻿/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
-        ink: {
-          950: '#0b111d',
-          900: '#0f172a',
-          800: '#1b2434',
-          700: '#243047',
-          600: '#2f3c57',
-        },
-        steel: {
-          500: '#6b7c98',
-          400: '#8b9bb3',
-          300: '#a9b7ca',
-        },
-        teal: {
-          500: '#1fb7a6',
-          400: '#33c6b6',
-        },
-        gold: {
-          500: '#c9a227',
-          400: '#d7b246',
-        },
-        electric: {
-          500: '#2f6bff',
-          400: '#4f7dff',
-        },
-        cloud: {
-          50: '#f6f8fb',
-          100: '#eef2f7',
-          200: '#e4e9f1',
-        },
+        primary: '#f5821f',
+        'primary-dark': '#d96e10',
+        dark: '#0d1b35',
+        'dark-2': '#1a2d50',
+        'text-dark': '#1c2035',
+        'text-body': '#666f7b',
+        'light-bg': '#f4f7fc',
+        border: '#e8edf2',
       },
       fontFamily: {
-        display: ['Manrope', 'Inter', 'system-ui', 'sans-serif'],
-        body: ['Inter', 'Manrope', 'system-ui', 'sans-serif'],
+        heading: ['Barlow', 'sans-serif'],
+        body: ['Jost', 'sans-serif'],
       },
-      boxShadow: {
-        soft: '0 25px 60px rgba(10, 18, 32, 0.18)',
-        glow: '0 12px 40px rgba(47, 107, 255, 0.25)',
+      container: {
+        center: true,
+        padding: '1rem',
+        screens: {
+          sm: '640px',
+          md: '768px',
+          lg: '1024px',
+          xl: '1200px',
+        },
       },
     },
   },

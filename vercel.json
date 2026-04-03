@@ -5,11 +5,17 @@
       "has": [
         {
           "type": "host",
-          "value": "tsrcargoservice.com"
+          "value": "www.tsrcargoservice.com"
         }
       ],
-      "destination": "https://www.tsrcargoservice.com/:path*",
+      "destination": "https://tsrcargoservice.com/:path*",
       "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
