@@ -26,10 +26,10 @@ export function Navbar() {
     <>
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <Link to="/" className="navbar__logo" style={{ display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none' }}>
-          <img src="/images/brand-logo-small.png" alt="TSR Cargo" style={{ height: '40px', width: 'auto' }} />
-          <span style={{ fontFamily: "'Barlow', sans-serif", fontSize: '22px', fontWeight: 800, color: '#1a2d50' }}>
+          <img src="/images/logo-small.png" alt="TSR Cargo" style={{ height: '140px', width: 'auto' }} />
+          {/* <span style={{ fontFamily: "'Barlow', sans-serif", fontSize: '22px', fontWeight: 800, color: '#1a2d50' }}>
             TSR Cargo
-          </span>
+          </span> */}
         </Link>
 
         <ul className="navbar__menu">
