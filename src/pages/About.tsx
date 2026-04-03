@@ -1,5 +1,5 @@
 import { PageHero } from '../components/PageHero';
-import { FiCheck, FiAward } from 'react-icons/fi';
+import { FiAward } from 'react-icons/fi';
 import { StatsCounter } from '../components/home/StatsCounter';
 import { TeamSection } from '../components/home/TeamSection';
 import { WhyChooseUs } from '../components/home/WhyChooseUs';
