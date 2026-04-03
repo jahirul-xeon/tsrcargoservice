@@ -1,135 +1,262 @@
-export const quickActions = [
+export const heroSlides = [
   {
-    title: 'Book Trial Shipment',
-    description: 'Start with a trial export shipment and evaluate our service quality.',
-    href: '#contact',
+    image: '/images/photo-1494412574643-ff11b0a5eb19.jpg',
+    video: '/videos/hero-video.mp4',
+    label: 'TSR Cargo Service',
+    title: ['Modern Logistics &', 'Transportation'],
+    subtitle: 'Take your business to the next level with TSR Cargo Service.',
   },
   {
-    title: 'Share Export Plan',
-    description: 'Send your shipment plan for routing, timing, and documentation support.',
-    href: 'mailto:tarek@tsrcargoservice.com?subject=Export%20Plan%20Inquiry',
+    image: '/images/photo-1542296332-2e4473faf563.jpg',
+    label: 'TSR Cargo Service',
+    title: ['Save Time In', 'Transportation'],
+    subtitle: 'Take your business to the next level with TSR Cargo Service.',
   },
   {
-    title: 'WhatsApp Our Team',
-    description: 'Message our Bangladesh origin handling specialists on WhatsApp.',
-    href: 'https://wa.me/49015753244139?text=Hello%20TSR%20Cargo%20Service%2C%20I%20want%20to%20discuss%20my%20shipment.',
+    image: '/images/photo-1601584115197-04ecc0da31d7.jpg',
+    label: 'TSR Cargo Service',
+    title: ['Serving Global', 'Communication'],
+    subtitle: 'Take your business to the next level with TSR Cargo Service.',
   },
-]
+];
 
-export const services = [
+export const servicePreview = [
   {
-    title: 'Air & Sea Freight Solutions',
-    description: 'Flexible freight forwarding options for export shipments.',
+    title: 'Land Freight',
+    icon: 'FaTruck',
+    image: '/images/photo-1601584115197-04ecc0da31d7.jpg',
+    slug: 'door-to-door',
   },
   {
-    title: 'Textile & Garment Logistics',
-    description: 'Specialized handling for garments and textiles from Bangladesh.',
+    title: 'Air Freight',
+    icon: 'FaPlane',
+    image: '/images/photo-1542296332-2e4473faf563.jpg',
+    slug: 'air-freight',
   },
   {
-    title: 'Factory Pickup & Coordination',
-    description: 'Reliable pickup and shipment coordination from production sites.',
+    title: 'Warehouse Facility',
+    icon: 'FaWarehouse',
+    image: '/images/photo-1586528116311-ad8dd3c8310d.jpg',
+    slug: 'warehousing',
   },
-  {
-    title: 'Inland Transportation',
-    description: 'Smooth inland movement from factory to port and airport terminals.',
-  },
-  {
-    title: 'Export Customs Clearance & Documentation',
-    description: 'Accurate export paperwork and customs processing support.',
-  },
-]
+];
 
-export const metrics = [
-  { label: 'Core Service Lines', value: 5, suffix: '' },
-  { label: 'Primary Export Regions', value: 2, suffix: '' },
-  { label: 'Origin Country Focus', value: 1, suffix: '' },
-  { label: 'Main Cargo Categories', value: 3, suffix: '' },
-]
+export const whyChooseTabs = [
+  {
+    title: 'Expert Team',
+    content: 'Our team of logistics professionals brings decades of industry experience, ensuring every shipment is handled with expertise and care. From complex international routes to last-mile delivery, our experts navigate challenges seamlessly.',
+    features: ['Trained logistics professionals', 'Industry-certified handlers', 'Dedicated account managers', '24/7 operations support'],
+    image: '/images/photo-1521737604893-d14cc237f11d.jpg',
+  },
+  {
+    title: 'Modern Technology',
+    content: 'We leverage cutting-edge technology to optimize routes, track shipments in real-time, and provide complete visibility into your supply chain. Our digital platforms make managing logistics simpler than ever.',
+    features: ['Real-time GPS tracking', 'Automated route optimization', 'Digital documentation', 'API integration support'],
+    image: '/images/photo-1504384308090-c894fdcc538d.jpg',
+  },
+  {
+    title: 'Global Network',
+    content: 'With partnerships spanning over 120 countries, TSR connects you to the world. Our global network ensures reliable service regardless of your cargo\'s origin or destination.',
+    features: ['120+ country coverage', 'Strategic port partnerships', 'Multi-modal transport links', 'Local expertise worldwide'],
+    image: '/images/photo-1497366754035-f200968a6e72.jpg',
+  },
+  {
+    title: 'Warehouse Facility',
+    content: 'Our state-of-the-art warehousing facilities provide secure, climate-controlled storage with advanced inventory management systems to meet your distribution needs.',
+    features: ['Climate-controlled zones', 'Advanced security systems', 'Automated inventory tracking', 'Cross-docking capabilities'],
+    image: '/images/photo-1586528116311-ad8dd3c8310d.jpg',
+  },
+  {
+    title: 'Priority Transportation',
+    content: 'For time-critical shipments, our priority transportation service guarantees expedited handling, dedicated routing, and guaranteed delivery windows to keep your business running smoothly.',
+    features: ['Guaranteed delivery windows', 'Expedited customs clearance', 'Dedicated transport vehicles', 'Priority cargo handling'],
+    image: '/images/photo-1601584115197-04ecc0da31d7.jpg',
+  },
+];
 
-export const operations = [
+export const premiumServices = [
   {
-    title: 'Factory Pickup & Coordination',
-    caption: 'On-ground coordination from production sites to dispatch points.',
-    image:
-      'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80',
+    title: 'International Transportation',
+    desc: 'Seamless freight movement across borders with expert handling and documentation support.',
+    image: '/images/photo-1494412574643-ff11b0a5eb19.jpg',
   },
   {
-    title: 'Inland Transportation Planning',
-    caption: 'Reliable inland transfer scheduling for timely export movement.',
-    image:
-      'https://images.unsplash.com/photo-1521790797524-b2497295b8a0?auto=format&fit=crop&w=900&q=80',
+    title: 'Drone Delivery System',
+    desc: 'Next-generation aerial delivery for urgent and lightweight shipments.',
+    image: '/images/photo-1508444845599-5c89863b1c44.jpg',
   },
   {
-    title: 'Export Documentation Control',
-    caption: 'Accurate documentation and customs preparation for each shipment.',
-    image:
-      'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80',
+    title: 'Unloading & Warehousing',
+    desc: 'Efficient unloading, sorting, and secure warehousing for all cargo types.',
+    image: '/images/photo-1586528116311-ad8dd3c8310d.jpg',
   },
   {
-    title: 'Air & Sea Freight Execution',
-    caption: 'Efficient handover to international air and sea carriers.',
-    image:
-      'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80',
+    title: 'International Mailing',
+    desc: 'Reliable global mailing services for documents and small packages.',
+    image: '/images/photo-1566576912321-d58ddd7a6088.jpg',
   },
   {
-    title: 'Origin Handling in Bangladesh',
-    caption: 'Local team support for smooth and transparent shipment execution.',
-    image:
-      'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=900&q=80',
+    title: 'Personnel Delivery Services',
+    desc: 'Dedicated courier personnel for secure and personalized shipment handling.',
+    image: '/images/photo-1601584115197-04ecc0da31d7.jpg',
   },
-]
+  {
+    title: 'Packaging & Warehousing',
+    desc: 'Professional packaging solutions combined with secure storage facilities.',
+    image: '/images/photo-1553413077-190dd305871c.jpg',
+  },
+];
 
-export const navLinks = [
-  { label: 'Services', href: '#services' },
-  { label: 'Why Us', href: '#why-us' },
-  { label: 'Operations', href: '#operations' },
-  { label: 'About', href: '#about' },
-  { label: 'Contact', href: '#contact' },
-]
+export const teamMembers = [
+  {
+    name: 'Mellisa Johnson',
+    role: 'Head of Operation',
+    image: '/images/photo-1573496359142-b8d87734a5a2.jpg',
+  },
+  {
+    name: 'Robert Williams',
+    role: 'Logistics Manager',
+    image: '/images/photo-1560250097-0b93528c311a.jpg',
+  },
+  {
+    name: 'Sarah Chen',
+    role: 'Operations Director',
+    image: '/images/photo-1580489944761-15a19d654956.jpg',
+  },
+  {
+    name: 'James Anderson',
+    role: 'Fleet Manager',
+    image: '/images/photo-1472099645785-5658abf4ff4e.jpg',
+  },
+  {
+    name: 'Emily Parker',
+    role: 'Customer Relations',
+    image: '/images/photo-1438761681033-6461ffad8d80.jpg',
+  },
+];
 
-export const highlightCards = [
-  {
-    title: 'Textile & Garment Expertise',
-    caption: 'Deep understanding of Bangladesh production hubs and export flow.',
-    image:
-      'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80',
-  },
-  {
-    title: 'Transparent Communication',
-    caption: 'Clear updates and reliable coordination through each shipment stage.',
-    image:
-      'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80',
-  },
-  {
-    title: 'European Trade Readiness',
-    caption: 'Strong understanding of European trade and origin handling needs.',
-    image:
-      'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80',
-  },
-]
+export const skills = [
+  { name: 'Intermodal Shipping', percent: 56 },
+  { name: 'Warehousing', percent: 98 },
+  { name: 'International Shipping', percent: 87 },
+];
 
-export const aboutHighlights = [
-  { title: 'Company Base', value: 'Bangladesh-based freight forwarding company' },
-  { title: 'Primary Focus', value: 'Origin handling for export shipments' },
-  { title: 'Main Markets', value: 'Europe and North America' },
-]
+export const caseStudies = [
+  { title: 'Relief Transportation For United Nations', category: 'SEA', image: '/images/photo-1494412574643-ff11b0a5eb19.jpg' },
+  { title: 'Relief Transportation For United Nations', category: 'SEA', image: '/images/photo-1577427889823-3e66c2e3a3dc.jpg' },
+  { title: 'Shipping Large Container From China', category: 'SEA', image: '/images/photo-1578575437130-527eed3abbec.jpg' },
+  { title: '200 Metric ton Grain Freight For Mexico', category: 'SEA', image: '/images/photo-1601584115197-04ecc0da31d7.jpg' },
+  { title: 'Relief Transportation For United Nations', category: 'LOGISTICS', image: '/images/photo-1586528116311-ad8dd3c8310d.jpg' },
+  { title: 'Crops Transportation For Mexico by Rail', category: 'CARGO', image: '/images/photo-1553413077-190dd305871c.jpg' },
+];
 
-export const missionVision = [
+export const testimonials = [
   {
-    title: 'Mission',
-    description:
-      'Provide sustainable, transparent, and reliable freight forwarding support for global export partners.',
+    quote: "I saved over 50% using TSR Cargo over my previous provider. The customer support staff was very helpful and responsive throughout the entire process. Highly recommend their services!",
+    name: 'David Mitchell',
+    title: 'CEO, Traders Corp.',
+    image: '/images/photo-1560250097-0b93528c311a.jpg',
+    rating: 5,
   },
   {
-    title: 'Vision',
-    description:
-      'Be the trusted origin handling partner in Bangladesh for textile, garment, and general cargo exports.',
+    quote: "TSR Cargo Service has transformed our supply chain. Their warehousing and customs services are exceptional, and the team is always available when we need them. Outstanding logistics partner!",
+    name: 'Rachel Green',
+    title: 'Supply Chain Director, GreenTex Ltd.',
+    image: '/images/photo-1573496359142-b8d87734a5a2.jpg',
+    rating: 5,
   },
-]
+  {
+    quote: "Working with TSR has been a game-changer for our international shipments. Their attention to detail, reliable transit times, and professional communication make them our top choice for logistics.",
+    name: 'Ahmed Hassan',
+    title: 'Managing Director, Gulf Imports',
+    image: '/images/photo-1472099645785-5658abf4ff4e.jpg',
+    rating: 5,
+  },
+];
 
-export const heroStats = [
-  { label: 'Origin Base', value: 'Bangladesh' },
-  { label: 'Primary Markets', value: 'Europe + N. America' },
-  { label: 'Freight Modes', value: 'Air + Sea' },
-  { label: 'Main Cargo', value: 'Textile + Garments' },
-]
+export const stats = [
+  { value: 25, suffix: 'k', label: 'Successful Transportation' },
+  { value: 350, suffix: '', label: 'Land Freight Transportation' },
+  { value: 120, suffix: '+', label: 'Countries of Operation' },
+  { value: 89, suffix: '', label: 'Train Freight Transportation' },
+];
+
+export const processSteps = [
+  {
+    step: 1,
+    title: 'Receive & Verify Cargo',
+    desc: 'We receive your cargo, perform thorough inspections, and verify all documentation to ensure everything is in order before transport.',
+    image: '/images/photo-1553413077-190dd305871c.jpg',
+  },
+  {
+    step: 2,
+    title: 'Plan & Transport',
+    desc: 'Our logistics team plans the optimal route and transport mode, coordinating every detail for efficient and timely movement of your goods.',
+    image: '/images/photo-1601584115197-04ecc0da31d7.jpg',
+  },
+  {
+    step: 3,
+    title: 'Deliver & Confirm',
+    desc: 'We deliver your cargo safely to the destination, obtain confirmation, and provide complete documentation for your records.',
+    image: '/images/photo-1586528116311-ad8dd3c8310d.jpg',
+  },
+];
+
+export const faqItems = [
+  {
+    question: 'Can TSR Cargo Service handle customs clearance support?',
+    answer: 'TSR Cargo Service supports customs documentation and coordinates clearance through the required channels to reduce delays. Our licensed customs brokers handle all regulatory requirements.',
+  },
+  {
+    question: 'Do you provide warehousing services?',
+    answer: 'TSR Cargo Service can arrange storage, staging, and dispatch support based on shipment needs. Our facilities offer secure, climate-controlled environments with 24/7 monitoring.',
+  },
+  {
+    question: 'Do you support urgent or priority shipments?',
+    answer: 'TSR Cargo Service can coordinate priority handling and faster routing options for time-critical cargo. We offer express air freight and dedicated transport solutions.',
+  },
+  {
+    question: 'Can you support temperature-controlled (reefer/cold chain) cargo?',
+    answer: 'Yes—reefer solutions can be coordinated where route and equipment availability allow. We maintain strict temperature monitoring throughout the cold chain logistics process.',
+  },
+];
+
+export const blogPosts = [
+  {
+    title: 'Innovations in last-mile delivery operations',
+    date: 'October 02 2023',
+    author: 'admin',
+    excerpt: 'Discover the latest innovations transforming last-mile delivery, from drone technology to smart lockers, making deliveries faster and more efficient than ever.',
+    image: '/images/photo-1566576912321-d58ddd7a6088.jpg',
+  },
+  {
+    title: 'Best packaging techniques to send goods damage free',
+    date: 'October 02 2023',
+    author: 'admin',
+    excerpt: 'Learn professional packaging techniques that protect your shipments during transit, reducing damage claims and ensuring customer satisfaction.',
+    image: '/images/photo-1553413077-190dd305871c.jpg',
+  },
+  {
+    title: 'Recent Problems of air freight transportation',
+    date: 'October 02 2023',
+    author: 'admin',
+    excerpt: 'An analysis of current challenges facing the air freight industry, including capacity constraints, fuel costs, and regulatory changes affecting global trade.',
+    image: '/images/photo-1436491865332-7a61a109db05.jpg',
+  },
+  {
+    title: 'New Giant trucks are game changers in logistics',
+    date: 'October 02 2023',
+    author: 'admin',
+    excerpt: 'How next-generation mega trucks are revolutionizing road freight, offering greater capacity, fuel efficiency, and reduced environmental impact.',
+    image: '/images/photo-1601584115197-04ecc0da31d7.jpg',
+  },
+];
+
+export const servicesGrid = [
+  { title: 'Land Freight', image: '/images/photo-1601584115197-04ecc0da31d7.jpg', icon: 'FaTruck', slug: 'door-to-door' },
+  { title: 'Air Freight', image: '/images/photo-1436491865332-7a61a109db05.jpg', icon: 'FaPlane', slug: 'air-freight' },
+  { title: 'Warehouse Facility', image: '/images/photo-1586528116311-ad8dd3c8310d.jpg', icon: 'FaWarehouse', slug: 'warehousing' },
+  { title: 'Maritime Freight Transportation', image: '/images/photo-1494412574643-ff11b0a5eb19.jpg', icon: 'FaShip', slug: 'ocean-freight' },
+  { title: 'Land Freight Transportation', image: '/images/photo-1601584115197-04ecc0da31d7.jpg', icon: 'FaTruckMoving', slug: 'door-to-door' },
+  { title: 'Train Freight Transportation', image: '/images/photo-1553413077-190dd305871c.jpg', icon: 'FaTrain', slug: 'door-to-door' },
+];
