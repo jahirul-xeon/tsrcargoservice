@@ -114,7 +114,7 @@ export function HeroSlider() {
                           {/* Staggered Title Reveal */}
                           <div className="flex flex-col gap-3 mb-10 text-center">
                             <div className="overflow-hidden py-1">
-                              <motion.h1
+                              <motion.h2
                                 className="text-white text-6xl md:text-8xl lg:text-[100px] font-extrabold leading-[0.95] font-barlow tracking-tight"
                                 initial={{ y: '100%' }}
                                 animate={{ y: 0 }}
@@ -122,10 +122,10 @@ export function HeroSlider() {
                                 transition={{ duration: 0.9, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
                               >
                                 {slide.title[0]}
-                              </motion.h1>
+                              </motion.h2>
                             </div>
                             <div className="overflow-hidden py-1">
-                              <motion.h1
+                              <motion.h2
                                 className="text-white text-6xl md:text-8xl lg:text-[100px] font-extrabold leading-[0.95] font-barlow tracking-tight"
                                 initial={{ y: '100%' }}
                                 animate={{ y: 0 }}
@@ -133,7 +133,7 @@ export function HeroSlider() {
                                 transition={{ duration: 0.9, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
                               >
                                 <span className="text-[#f5821f] drop-shadow-md">{slide.title[1]}</span>
-                              </motion.h1>
+                              </motion.h2>
                             </div>
                           </div>
 

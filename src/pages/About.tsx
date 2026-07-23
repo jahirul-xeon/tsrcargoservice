@@ -8,12 +8,23 @@ import { CtaBanner } from '../components/home/CtaBanner';
 import { ProcessSteps } from '../components/home/ProcessSteps';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { Seo } from '../components/Seo';
+import { breadcrumbLd } from '../lib/structuredData';
 
 export function About() {
   const { ref, inView } = useInView({ threshold: 0.15, triggerOnce: true });
 
   return (
     <>
+      <Seo
+        title="About TSR Cargo Service | Trusted Freight Forwarder Since 1997"
+        description="Established in 1997, TSR Cargo Service is one of Bangladesh's most trusted freight forwarding and logistics companies, delivering ocean, air, warehousing and customs solutions worldwide."
+        path="/about-us"
+        jsonLd={breadcrumbLd([
+          { name: 'Home', path: '/' },
+          { name: 'About Us', path: '/about-us' },
+        ])}
+      />
       <PageHero
         title="About Us"
         breadcrumbs={[

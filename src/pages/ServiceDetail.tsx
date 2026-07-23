@@ -4,6 +4,8 @@ import { PageHero } from '../components/PageHero';
 import { FiCheck, FiPhone, FiMail, FiMapPin } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { Seo } from '../components/Seo';
+import { serviceLd, breadcrumbLd } from '../lib/structuredData';
 
 export function ServiceDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -13,6 +15,12 @@ export function ServiceDetail() {
   if (!service) {
     return (
       <div style={{ textAlign: 'center', padding: '100px 20px' }}>
+        <Seo
+          title="Service Not Found"
+          description="The requested service does not exist. Browse all TSR Cargo Service logistics and freight services."
+          path={`/service/${slug ?? ''}`}
+          noindex
+        />
         <h2>Service Not Found</h2>
         <p>The requested service does not exist.</p>
         <Link to="/services" className="btn-primary" style={{ marginTop: '20px', display: 'inline-flex' }}>
@@ -24,8 +32,29 @@ export function ServiceDetail() {
 
   const relatedServices = services.filter((s) => s.slug !== slug).slice(0, 3);
 
+  const servicePath = `/service/${service.slug}`;
+
   return (
     <>
+      <Seo
+        title={`${service.name} Services | TSR Cargo Service`}
+        description={service.shortDesc}
+        path={servicePath}
+        image={service.image}
+        jsonLd={[
+          serviceLd({
+            name: service.name,
+            description: service.shortDesc,
+            path: servicePath,
+            image: service.image,
+          }),
+          breadcrumbLd([
+            { name: 'Home', path: '/' },
+            { name: 'Services', path: '/services' },
+            { name: service.name, path: servicePath },
+          ]),
+        ]}
+      />
       <PageHero
         title={service.name}
         breadcrumbs={[

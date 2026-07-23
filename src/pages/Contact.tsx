@@ -4,6 +4,8 @@ import { FiMail, FiPhone, FiMapPin, FiLoader } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import toast from 'react-hot-toast';
+import { Seo } from '../components/Seo';
+import { breadcrumbLd } from '../lib/structuredData';
 
 const contactCards = [
   {
@@ -65,6 +67,15 @@ export function Contact() {
 
   return (
     <>
+      <Seo
+        title="Contact TSR Cargo Service | Get a Freight Quote"
+        description="Contact TSR Cargo Service for reliable freight forwarding and logistics. Call or WhatsApp +49 015753244139, email tarek@tsrcargoservice.com, or request a quote online."
+        path="/contact-us"
+        jsonLd={breadcrumbLd([
+          { name: 'Home', path: '/' },
+          { name: 'Contact Us', path: '/contact-us' },
+        ])}
+      />
       <PageHero
         title="Contact Us"
         breadcrumbs={[

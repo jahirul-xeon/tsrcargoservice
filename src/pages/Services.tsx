@@ -4,6 +4,8 @@ import { servicesGrid } from '../data/siteData';
 import { FaTruck, FaPlane, FaWarehouse, FaShip, FaTruckMoving, FaTrain } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { Seo } from '../components/Seo';
+import { breadcrumbLd } from '../lib/structuredData';
 
 const iconMap: Record<string, React.ReactNode> = {
   FaTruck: <FaTruck />,
@@ -19,6 +21,15 @@ export function Services() {
 
   return (
     <>
+      <Seo
+        title="Logistics & Freight Services | TSR Cargo Service"
+        description="Explore TSR Cargo Service's logistics solutions: ocean freight, air freight, land freight, warehousing, customs brokerage, international courier and door-to-door delivery worldwide."
+        path="/services"
+        jsonLd={breadcrumbLd([
+          { name: 'Home', path: '/' },
+          { name: 'Services', path: '/services' },
+        ])}
+      />
       <PageHero
         title="Services"
         breadcrumbs={[

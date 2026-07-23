@@ -13,10 +13,20 @@ import { ProcessSteps } from '../components/home/ProcessSteps';
 import { CtaBanner } from '../components/home/CtaBanner';
 import { FAQAccordion } from '../components/home/FAQAccordion';
 import { BlogPreview } from '../components/home/BlogPreview';
+import { Seo } from '../components/Seo';
+import { faqLd } from '../lib/structuredData';
+import { faqItems } from '../data/siteData';
 
 export function Home() {
   return (
     <>
+      <Seo
+        title="TSR Cargo Service | Freight Forwarding & Logistics Company"
+        description="TSR Cargo Service is a trusted freight forwarding and logistics company offering ocean freight, air freight, warehousing, customs brokerage and door-to-door delivery worldwide."
+        path="/"
+        jsonLd={faqLd(faqItems)}
+      />
+      <h1 className="sr-only">TSR Cargo Service — Freight Forwarding &amp; Logistics Company</h1>
       <HeroSlider />
       <ServicesPreview />
       <AboutSection />
